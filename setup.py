@@ -18,8 +18,7 @@ setup(
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",
     ],
@@ -32,10 +31,8 @@ setup(
     include_package_data=True,
     zip_safe=True,
     install_requires=[
-        'importlib-resources >= 1.3;python_version<"3.9"',
         'lxml',
         'python-docx >= 0.8.8',
-        'six',
         'babel',
     ],
     extras_require={
